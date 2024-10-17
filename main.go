@@ -56,7 +56,7 @@ func checkoutBook(c *gin.Context) {
 	}
 
 	book.Quantity -= 1 
-	c.IndentedJSON(http.StatusOK, book)
+	c.IndentedJSON(http.StatusOK, books)
 }
 
 func getBookById(id string) (*book, error) {

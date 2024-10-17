@@ -11,7 +11,6 @@ type book struct{
 	Title string `json:"title"`
 	Author string `json:"author"` 
 	Quantity int `json:"quantity"`
-<<<<<<< HEAD
 }
 
 var books = []book{

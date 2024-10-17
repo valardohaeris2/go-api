@@ -20,7 +20,7 @@ var books = []book{
 }
 
 func getBooks(c *gin.Context) {
-	c.IndentedJSON(http.StatusOK, books)
+	c.IndentedJSON(http.StatusOK, book)
 }
 
 func bookById(c *gin.Context) {

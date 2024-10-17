@@ -32,7 +32,7 @@ func bookById(c *gin.Context) {
 		return
 	}
 
-	c.IndentedJSON(http.StatusOK, book)
+	c.IndentedJSON(http.StatusOK, books)
 }
 
 func checkoutBook(c *gin.Context) {

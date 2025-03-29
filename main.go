@@ -15,7 +15,7 @@ type book struct{
 }
 
 var books = []book{
-	{ID: "1", Title: "1984", Author: "Eric Arthur Blair", Quantity: 3},
+	{ID: "1", Title: "1984", Author: "Eric Arthur Blair", Quantity: 3}, 
 	{ID: "2", Title: "Fountainhead", Author: "Ayn Rand", Quantity: 2},
 }
 

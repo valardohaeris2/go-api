@@ -90,7 +90,7 @@ func getBookById(id string) (*book, error) {
 func createBook(c *gin.Context) {
 	var newBook book
 
-	if err := c.BindJSON(&newBook); err != nil {
+	if err := c.BindJSON(&newBook); err != nil { 
 		return
 	}
 	
